@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Page</title>
+</head>
+<body>
+
+  <!-- Ordered list with Roman numerals -->
+  <h2>My Favorite Activities</h2>
+  <ol type="I">
+    <li>Coding</li>
+    <li>Reading</li>
+    <li>Traveling</li>
+    <li>Photography</li>
+    <li>Gaming</li>
+  </ol>
+
+  <!-- External image from pexels -->
+  <h2>Beautiful Landscape</h2>
+  <img src="https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg" alt="Nature from Pexels" width="600">
+
+  <!-- Contact Table -->
+  <h2>Contacts</h2>
+  <table border="1" cellpadding="10">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Mobile</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Berlyn Mumbua</td>
+        <td>Langata</td>
+        <td>0775457809</td>
+        <td>berlyn@gmail.com.com</td>
+      </tr>
+      <tr>
+        <td>Ben Wanjiru</td>
+        <td>Mtwapa</td>
+        <td>0799876543</td>
+        <td>benwanjiru@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Charlie Mzungu</td>
+        <td>Homa Bay</td>
+        <td>0710992885</td>
+        <td>mzungu@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Diana Chepkemboi</td>
+        <td>321 Maple Blvd</td>
+        <td>0700000004</td>
+        <td>deechep@yahoo.com</td>
+      </tr>
+      <tr>
+        <td>Edward Tebukoza</td>
+        <td>Busia</td>
+        <td>0787662554</td>
+        <td>Tebukozaeddie@hotmail.com</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Registration Form -->
+  <h2>Registration Form</h2>
+  <form action="#" method="post">
+    <!-- Name Field -->
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+    <!-- Email Field -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+    <!-- Password Field -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Choose a password" required minlength="6"><br><br>
+
+    <!-- Date Field -->
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required><br><br>
+
+    <!-- Dropdown -->
+    <label for="country">Country:</label>
+    <select id="country" name="country" required>
+      <option value="">Select your country</option>
+      <option value="kenya">Kenya</option>
+      <option value="uganda">Uganda</option>
+      <option value="tanzania">Tanzania</option>
+    </select><br><br>
+
+    <!-- Radio Buttons -->
+    <p>Gender:</p>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female" required>
+    <label for="female">Female</label><br><br>
+
+    <!-- Checkboxes -->
+    <p>Select your interests:</p>
+    <input type="checkbox" id="coding" name="interests" value="coding">
+    <label for="coding">Coding</label><br>
+    <input type="checkbox" id="music" name="interests" value="music">
+    <label for="music">Music</label><br>
+    <input type="checkbox" id="sports" name="interests" value="sports">
+    <label for="sports">Sports</label><br><br>
+
+    <!-- Submit Button -->
+    <button type="submit">Register</button>
+  </form>
+
+</body>
+</html>
